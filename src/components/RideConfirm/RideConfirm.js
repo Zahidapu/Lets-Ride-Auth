@@ -16,7 +16,7 @@ const RideConfirm = () => {
     return (
         <div>
             <Header/>
-            <div className="row mt-5 pt-5">
+            <div className="fixed-top row mt-5 pt-5">
                 <div className="col-lg-3 text-light ps-5">
                     <div>  
                         <form className="form-control" action="" onSubmit={searchHandler}>
